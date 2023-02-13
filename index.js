@@ -1,8 +1,9 @@
 import { load } from 'cheerio'
+const page = process.env.page || 1
 
 // Fetch everything from the Hacker News homepage
-const page = await fetch('https://news.ycombinator.com/')
-const data = await page.text()
+const hnpage = await fetch(`https://news.ycombinator.com/?p=${page}`)
+const data = await hnpage.text()
 
 const $ = load(data)
 const pageContent = []
