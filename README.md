@@ -34,4 +34,4 @@ It'll be an array of objects, each object being a post on the homepage of hacker
 
 ## Contributions
 
-Have an idea that makes this even better? Contributions are welcome! Please open an issue or PR.
+Have an idea that makes this even better? Contributions are welcome! Please open an issue or PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
