@@ -1,10 +1,10 @@
 # hackernews-web-scraper
 
-A lightweight [node.js](https://nodejs.org/en/) webscraper to retrieve the homepage of [hackernews](https://news.ycombinator.com/).
+A lightweight [TypeScript](https://www.typescriptlang.org/) webscraper to retrieve the homepage of [hackernews](https://news.ycombinator.com/).
 
 ## System Requirements
 
-This repo utilizes Node's experimental `fetch`. To run this script, you will need to use node 18 or higher (see `.nvmrc` for the exact version this was designed for).
+This repo utilizes Node's experimental `fetch`. To run this script, you will need to use Node 18 or higher (see `.nvmrc` for the exact version this was designed for).
 
 ## Instructions To Run
 
