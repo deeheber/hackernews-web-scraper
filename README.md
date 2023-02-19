@@ -4,7 +4,7 @@ A lightweight [node.js](https://nodejs.org/en/) webscraper to retrieve the homep
 
 ## System Requirements
 
-This repo utilizes the experimental `fetch` in node and top level `await`. To run this script, you will need to use node 18 or higher (see `.nvmrc` for the exact version this was designed for).
+This repo utilizes Node's experimental `fetch`. To run this script, you will need to use node 18 or higher (see `.nvmrc` for the exact version this was designed for).
 
 ## Instructions To Run
 
@@ -34,4 +34,4 @@ It'll be an array of objects, each object being a post on the homepage of hacker
 
 ## Contributions
 
-Have an idea that makes this even better? Contributions are welcome! Please open an issue or PR.
+Have an idea that makes this even better? Contributions are welcome! Please open an issue or PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.

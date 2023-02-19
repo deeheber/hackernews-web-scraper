@@ -1,18 +1,19 @@
 {
   "name": "hackernews-web-scraper",
   "version": "1.0.0",
-  "description": "A simple node.js webscraper to retrieve the homepage of hackernews",
-  "main": "index.js",
-  "type": "module",
+  "description": "A lightweight webscraper to retrieve the homepage of hackernews",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "esr ./src/index.ts",
+    "build": "tsc",
+    "prod": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deeheber/hackernews-web-scraper.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Danielle Heberling",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deeheber/hackernews-web-scraper/issues"
@@ -20,5 +21,11 @@
   "homepage": "https://github.com/deeheber/hackernews-web-scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "esbuild": "^0.17.8",
+    "esbuild-runner": "^2.2.2",
+    "typescript": "^4.9.5"
   }
 }
