@@ -4,7 +4,7 @@ A lightweight [node.js](https://nodejs.org/en/) webscraper to retrieve the homep
 
 ## System Requirements
 
-This repo utilizes the experimental `fetch` in node and top level `await`. To run this script, you will need to use node 18 or higher (see `.nvmrc` for the exact version this was designed for).
+This repo utilizes Node's experimental `fetch`. To run this script, you will need to use node 18 or higher (see `.nvmrc` for the exact version this was designed for).
 
 ## Instructions To Run
 
